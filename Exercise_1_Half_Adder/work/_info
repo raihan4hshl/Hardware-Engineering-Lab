@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ehalfadder
+Z0 w1745333056
+!i122 3
+Z1 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder
+Z2 8C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd
+Z3 FC:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd
+l0
+L1 1
+VQDQ86[b4iEn7_`noHKeQd3
+!s100 4FC@:hcIOT?SjhGFlbK=K0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1745333633
+!i10b 1
+Z6 !s108 1745333633.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd|
+Z8 !s107 C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Adata
+DEx4 work 9 halfadder 0 22 QDQ86[b4iEn7_`noHKeQd3
+!i122 3
+l7
+L6 5
+VJM7kASEc;RXA9KmzzfoBV0
+!s100 k[74<E:g4fcP>2_=bN[k[3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Ehalfadder_tb
+Z11 w1745333472
+!i122 4
+R1
+Z12 8C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd
+Z13 FC:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd
+l0
+L1 1
+V8<?F35A`;T2bZ6ojH^b^B1
+!s100 @5TA9iF=2h[@JQjzL]T=M3
+R4
+32
+Z14 !s110 1745333634
+!i10b 1
+Z15 !s108 1745333634.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd|
+Z17 !s107 C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd|
+!i113 1
+R9
+R10
+Abehavioral
+Z18 DEx4 work 12 halfadder_tb 0 22 8<?F35A`;T2bZ6ojH^b^B1
+!i122 4
+l13
+Z19 L4 20
+Z20 V7:@@>XdG2QD;h@WJRIAWI1
+Z21 !s100 zA_Hk=64ZFf5LB7ZSJgTA0
+R4
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R9
+R10
