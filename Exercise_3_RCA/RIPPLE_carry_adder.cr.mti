@@ -1,0 +1,81 @@
+C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rca_4bit_TB
+-- Compiling architecture Behavior of rca_4bit_TB
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rca_4bit
+-- Compiling architecture Structure of rca_4bit
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Full_Adder
+-- Compiling architecture Behavioral of Full_Adder
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity HalfAdder
+-- Compiling architecture Data of HalfAdder
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity HalfAdder_TB
+-- Compiling architecture Behavioral of HalfAdder_TB
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Full_Adder_TB
+-- Compiling architecture Behavioral of Full_Adder_TB
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

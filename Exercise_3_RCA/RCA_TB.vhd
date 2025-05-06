@@ -1,0 +1,38 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity rca_4bit_TB is 
+end entity;
+
+architecture Behavior of rca_4bit_TB is
+	component  rca_4bit
+		port(A, B: in STD_LOGIC_VECTOR(3 downto 0); 
+			Cin: in STD_LOGIC; 
+			SUM: out STD_LOGIC_VECTOR(3 downto 0); 
+			Cout: out STD_LOGIC);
+	end component;
+
+signal A_TB, B_TB: STD_LOGIC_VECTOR(3 downto 0);
+signal Cin_TB: STD_LOGIC;
+signal SUM_TB: STD_LOGIC_VECTOR(3 downto 0);
+signal Cout_TB: STD_LOGIC;
+
+begin 
+
+	DUT1: rca_4bit port map(A_TB, B_TB, Cin_TB, SUM_TB, Cout_TB);
+	process
+		begin
+			for i in 0 to 15 loop
+				for j in 0 to 15 loop
+					for k in 0 to 1 loop
+						A_TB <= std_logic_vector((to_unsigned(i,4)));
+						B_TB <= std_logic_vector((to_unsigned(j,4)));
+        					Cin_TB <= std_logic'val(k);
+						wait for 30 ns;
+					end loop;
+				end loop;
+			end loop;
+	end process;
+end Behavior;

@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity Full_Adder_TB  is
+end Full_Adder_TB;
+
+architecture Behavioral of Full_Adder_TB is
+
+	component Full_Adder
+		port(A, B, Cin: in bit;
+			SUM, Cout: out bit);
+	end component;
+
+signal A_TB, B_TB, Cin_TB: bit;
+signal SUM_TB, Cout_TB: bit;
+
+begin 
+DUT1: Full_Adder port map(
+			A=>A_TB,
+			B=>B_TB,
+			Cin=>Cin_TB,
+			SUM=>SUM_TB,
+			Cout=>Cout_TB);
+
+A_TB <= '0', '0' after 15ns, '0' after 30ns, '0' after 45ns, '1' after 60ns, '1' after 75ns, '1' after 90ns, '1' after 105ns;
+B_TB <= '0', '0' after 15ns, '1' after 30ns, '1' after 45ns, '0' after 60ns, '0' after 75ns, '1' after 90ns, '1' after 105ns;
+Cin_TB  <= '0', '1' after 15ns, '0' after 30ns, '1' after 45ns, '0' after 60ns, '1' after 75ns, '0' after 90ns, '1' after 105ns;
+end Behavioral;
+
+

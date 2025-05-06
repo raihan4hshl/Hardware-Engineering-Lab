@@ -1,10 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
 entity HalfAdder is
-	port(A,B: in bit;
-		S,C: out bit);
+	port(A,B: in STD_LOGIC;
+		SUM,Cout: out STD_LOGIC);
 end entity;
 
 architecture Data of HalfAdder is 
 	begin 
-		S<=A XOR B;
-		C<=A AND B;
+		SUM<=A XOR B;
+		Cout<=A AND B;
 end architecture;

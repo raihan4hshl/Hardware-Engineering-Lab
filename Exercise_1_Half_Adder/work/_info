@@ -10,32 +10,32 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 Ehalfadder
-Z0 w1745333056
-!i122 3
+Z0 w1746135825
+!i122 5
 Z1 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder
-Z2 8C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd
-Z3 FC:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd
+Z2 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+Z3 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
 l0
 L1 1
-VQDQ86[b4iEn7_`noHKeQd3
-!s100 4FC@:hcIOT?SjhGFlbK=K0
+V74k`7B[TOoK4FMlffblc91
+!s100 C:Zobb5MgHECL8CY^LWZZ1
 Z4 OV;C;2020.1;71
 32
-Z5 !s110 1745333633
+Z5 !s110 1746135958
 !i10b 1
-Z6 !s108 1745333633.000000
-Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd|
-Z8 !s107 C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder.vhd|
+Z6 !s108 1746135958.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
+Z8 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
 !i113 1
 Z9 o-work work -2002 -explicit
 Z10 tExplicit 1 CvgOpt 0
 Adata
-DEx4 work 9 halfadder 0 22 QDQ86[b4iEn7_`noHKeQd3
-!i122 3
+DEx4 work 9 halfadder 0 22 74k`7B[TOoK4FMlffblc91
+!i122 5
 l7
 L6 5
-VJM7kASEc;RXA9KmzzfoBV0
-!s100 k[74<E:g4fcP>2_=bN[k[3
+V[YGaT]ZYo>OHDoTZ9nSEN1
+!s100 OI30YDK3]<eocog:jlKHz0
 R4
 32
 R5
@@ -47,39 +47,39 @@ R8
 R9
 R10
 Ehalfadder_tb
-Z11 w1745333472
-!i122 4
+Z11 w1746135896
+!i122 6
 R1
-Z12 8C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd
-Z13 FC:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd
+Z12 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+Z13 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
 l0
 L1 1
 V8<?F35A`;T2bZ6ojH^b^B1
 !s100 @5TA9iF=2h[@JQjzL]T=M3
 R4
 32
-Z14 !s110 1745333634
+Z14 !s110 1746135967
 !i10b 1
-Z15 !s108 1745333634.000000
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd|
-Z17 !s107 C:\Users\exone\Documents\GitHub\Hardware-Engineering-Lab\Exercise_1_Half_Adder\halfAdder_TB.vhd|
+Z15 !s108 1746135966.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
+!s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
 !i113 1
 R9
 R10
 Abehavioral
-Z18 DEx4 work 12 halfadder_tb 0 22 8<?F35A`;T2bZ6ojH^b^B1
-!i122 4
+Z17 DEx4 work 12 halfadder_tb 0 22 8<?F35A`;T2bZ6ojH^b^B1
+!i122 6
 l13
-Z19 L4 20
-Z20 V7:@@>XdG2QD;h@WJRIAWI1
-Z21 !s100 zA_Hk=64ZFf5LB7ZSJgTA0
+Z18 L4 20
+V>9NcY]hQ2DSfT2fj<zo2[2
+!s100 cb^`Gf847P?cbFf6]0hmV1
 R4
 32
 R14
 !i10b 1
 R15
 R16
-R17
+Z19 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
 !i113 1
 R9
 R10

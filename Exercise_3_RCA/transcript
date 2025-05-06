@@ -1,0 +1,215 @@
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:09:52 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "A".
+#    Time: 0 ps  Iteration: 0  Instance: /rca_4bit_tb/DUT1/FA0 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd Line: 7
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 00:09:55 on May 02,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd failed with 2 errors.
+# Compile of halfAdder_TB.vhd failed with 12 errors.
+# 6 compiles, 2 failed with 14 errors.
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd failed with 2 errors.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:17:34 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(data)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "A".
+#    Time: 0 ps  Iteration: 0  Instance: /rca_4bit_tb/DUT1/FA0/HA1 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 00:17:36 on May 02,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 4
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:22:04 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(data)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "A".
+#    Time: 0 ps  Iteration: 0  Instance: /rca_4bit_tb/DUT1/FA0/HA1 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 00:22:06 on May 02,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:23:23 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(data)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "A".
+#    Time: 0 ps  Iteration: 0  Instance: /rca_4bit_tb/DUT1/FA0/HA1 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 00:23:25 on May 02,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:31:34 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(data)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "A".
+#    Time: 0 ps  Iteration: 0  Instance: /rca_4bit_tb/DUT1/FA0/HA1 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 00:31:37 on May 02,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd failed with 2 errors.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd failed with 2 errors.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_tb(behavioral)
+# vsim -gui work.full_adder_tb(behavioral) 
+# Start time: 00:46:11 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.full_adder_tb(behavioral)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+quit -sim
+vsim -gui work.halfadder_tb(behavioral)
+# End time: 00:47:52 on May 02,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 4
+# vsim -gui work.halfadder_tb(behavioral) 
+# Start time: 00:47:52 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.halfadder_tb(behavioral)
+# Loading work.halfadder(data)
+add wave sim:/halfadder_tb/*
+run -all
+quit -sim
+# End time: 00:50:00 on May 02,2025, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 1
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd failed with 2 errors.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of RCA_TB.vhd was successful.
+# Compile of Full_adder.vhd was successful.
+# Compile of Full_adder_TB.vhd was successful with warnings.
+# Compile of RIPPLE_CARRY.vhd was successful.
+# Compile of halfAdder.vhd was successful.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 00:54:08 on May 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+add wave -position end  sim:/rca_4bit_tb/A_TB
+add wave -position end  sim:/rca_4bit_tb/B_TB
+add wave -position end  sim:/rca_4bit_tb/Cin_TB
+add wave -position end  sim:/rca_4bit_tb/SUM_TB
+add wave -position end  sim:/rca_4bit_tb/Cout_TB
+run -all
+quit -sim
+# End time: 12:11:11 on May 02,2025, Elapsed time: 11:17:03
+# Errors: 0, Warnings: 3

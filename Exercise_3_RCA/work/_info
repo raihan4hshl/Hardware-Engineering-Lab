@@ -1,0 +1,331 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder
+Efull_adder
+Z0 w1746139512
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 117
+Z4 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA
+Z5 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+Z6 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+l0
+L6 1
+Vh4kHM4gUR7>`?d;2oX?>22
+!s100 JAfjjd<iPA?imF;_kAMEP2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1746140033
+!i10b 1
+Z9 !s108 1746140033.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd|
+Z11 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 full_adder 0 22 h4kHM4gUR7>`?d;2oX?>22
+!i122 117
+l20
+L11 27
+V5;ZLdEUSY3^k3=^d4l=o^0
+!s100 <PXi68:GINXV46b@X`o651
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efull_adder_tb
+Z14 w1746137668
+R1
+R2
+R3
+!i122 118
+R4
+Z15 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd
+Z16 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd
+l0
+L6 1
+Vha:Qec^afjR3<1ePcd]a03
+!s100 f[gTAdckk7@j7l>eg2TRQ3
+R7
+32
+Z17 !s110 1746140034
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd|
+Z19 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 full_adder_tb 0 22 ha:Qec^afjR3<1ePcd]a03
+!i122 118
+l19
+L9 22
+V_g33Mm1gWOgXISo_>fS1f1
+!s100 l]iQidH^lJfbg]RHL@a`C3
+R7
+32
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Ehalf_adder
+Z20 w1746139360
+R1
+R2
+R3
+!i122 99
+R4
+R5
+R6
+l0
+L6 1
+VZJ6O[7oaVQJ:B:ZW^BbJ03
+!s100 c_JTG17P3PCT1QN=lIc[L3
+R7
+32
+Z21 !s110 1746139365
+!i10b 1
+Z22 !s108 1746139365.000000
+R10
+R11
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 half_adder 0 22 ZJ6O[7oaVQJ:B:ZW^BbJ03
+!i122 99
+l12
+Z23 L11 5
+VLY1eF=_8g7ZLZaR^0QPek1
+!s100 zo]A3a8jg5WJ0YDE@iABS0
+R7
+32
+R21
+!i10b 1
+R22
+R10
+R11
+!i113 1
+R12
+R13
+Adata
+R1
+R2
+R3
+DEx4 work 10 half_adder 0 22 =Zl<]a8gP8HRVMzlO1X_R3
+!i122 47
+l11
+L10 5
+VZJWfd@cRJ91VFhfQ19WCc3
+!s100 `9g1g14RilY442mnYjL]D2
+R7
+32
+!s110 1746134869
+!i10b 1
+!s108 1746134869.000000
+R10
+R11
+!i113 1
+R12
+R13
+w1746133324
+Ehalfadder
+Z24 w1746137821
+R1
+R2
+R3
+!i122 120
+R4
+Z25 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+Z26 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+l0
+L6 1
+VW=X7[X2G;hb?z2O<?_78f3
+!s100 ?DEW0ZL>41_lUO4MoV?[P2
+R7
+32
+Z27 !s110 1746140035
+!i10b 1
+Z28 !s108 1746140034.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
+Z30 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
+!i113 1
+R12
+R13
+Adata
+R1
+R2
+R3
+DEx4 work 9 halfadder 0 22 W=X7[X2G;hb?z2O<?_78f3
+!i122 120
+l12
+R23
+V[<D_Z896PXA]oF3[2BGLI2
+!s100 L=z5X^P]32[UHJ3Q`0`543
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Ehalfadder_tb
+Z31 w1746137777
+R1
+R2
+R3
+!i122 121
+R4
+Z32 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+Z33 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+l0
+L6 1
+V<F@_`EdPOX_n9@TQ=dnWI2
+!s100 9S[d<4RB4OYZTCYR>ZcQ72
+R7
+32
+R27
+!i10b 1
+Z34 !s108 1746140035.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
+Z36 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z37 DEx4 work 12 halfadder_tb 0 22 <F@_`EdPOX_n9@TQ=dnWI2
+!i122 121
+l18
+Z38 L9 20
+Z39 V1e9VeTD>Qz]YehoR[hnOo0
+Z40 !s100 fb?;`azRSGcY?KVO6m>I_2
+R7
+32
+R27
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Erca_4bit
+Z41 w1746140021
+R2
+R3
+!i122 119
+R4
+Z42 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+Z43 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+l0
+L4 1
+V3B0^54n^4USVKnnoN7>]z2
+!s100 :`h;5MKgW=UYkl9@:?5_02
+R7
+32
+R17
+!i10b 1
+R28
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+Z45 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+DEx4 work 8 rca_4bit 0 22 3B0^54n^4USVKnnoN7>]z2
+!i122 119
+l19
+L11 14
+VeLKKHE>oj4TnL;8^S4izh0
+!s100 ebMQ3WJH`Q5YY4W_@L8Ab0
+R7
+32
+R17
+!i10b 1
+R28
+R44
+R45
+!i113 1
+R12
+R13
+Erca_4bit_tb
+Z46 w1746134659
+R1
+R2
+R3
+!i122 116
+R4
+Z47 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd
+Z48 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd
+l0
+L6 1
+VQ9@cBDz]W048CcbSTIKAQ1
+!s100 FoEzX2Pj1`35IYG7O3W;<1
+R7
+32
+R8
+!i10b 1
+R9
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd|
+Z50 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 11 rca_4bit_tb 0 22 Q9@cBDz]W048CcbSTIKAQ1
+!i122 116
+l22
+L9 30
+V>h_bSf2Bgz98b==`hh0B01
+!s100 =T7S;o9X@Q^f`AczJn3ZU3
+R7
+32
+R8
+!i10b 1
+R9
+R49
+R50
+!i113 1
+R12
+R13

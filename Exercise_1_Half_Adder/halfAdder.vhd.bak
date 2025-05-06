@@ -1,1 +1,10 @@
+entity HalfAdder is
+	port(A,B: in STD_LOGIC;
+		SUM,Cout: out STD_LOGIC);
+end entity;
 
+architecture Data of HalfAdder is 
+	begin 
+		SUM<=A XOR B;
+		Cout<=A AND B;
+end architecture;
