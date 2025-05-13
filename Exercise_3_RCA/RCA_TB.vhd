@@ -24,23 +24,55 @@ begin
 	DUT1: rca_4bit port map(A_TB, B_TB, Cin_TB, SUM_TB, Cout_TB);
 	process
 		begin
-			A_TB <= "0101"; B_TB <= "0011"; Cin_TB <= '0';
-        		wait for 10 ns;
-
-        -- SUB 5 - 3 = 2
-        A_TB <= "0101"; B_TB <= "0011"; Cin_TB <= '1';
+		
+        A_TB    <= "0000"; 
+        B_TB    <= "0000";  
+        Cin_TB  <= '0';
         wait for 10 ns;
 
-        -- ADD 7 + 8 = 15
-        A_TB <= "0111"; B_TB <= "1000"; Cin_TB <= '0';
+        
+        A_TB    <= "0001";  
+        B_TB    <= "0010";  
+        Cin_TB  <= '0';
         wait for 10 ns;
 
-        -- SUB 7 - 8 = -1 (two's complement)
-        A_TB <= "0111"; B_TB <= "1000"; Cin_TB <= '1';
+        
+        A_TB    <= "0011"; 
+        B_TB    <= "0100";  
+        Cin_TB  <= '0';
         wait for 10 ns;
 
-        -- Edge case: 0 - 1 = -1
-        A_TB <= "0000"; B_TB <= "0001"; Cin_TB <= '1';
+        
+        A_TB    <= "0110";
+        B_TB    <= "1000";
+        Cin_TB  <= '0';
         wait for 10 ns;
+
+	A_TB    <= "0101";
+        B_TB    <= "0101";
+        Cin_TB  <= '0';
+        wait for 10 ns;
+
+	A_TB    <= "1000";
+        B_TB    <= "0110";
+        Cin_TB  <= '1';
+        wait for 10 ns;
+
+	A_TB    <= "0000";
+        B_TB    <= "0001";
+        Cin_TB  <= '1';
+        wait for 10 ns;
+
+	A_TB    <= "0111"; 
+        B_TB    <= "1000"; 
+        Cin_TB  <= '1';
+        wait for 10 ns;
+
+        A_TB    <= "1111";  
+        B_TB    <= "1111";  
+        Cin_TB  <= '0';
+        wait for 10 ns;
+
+	wait;
 	end process;
 end Behavior;

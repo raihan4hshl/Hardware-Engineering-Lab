@@ -1,0 +1,79 @@
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 22:36:11 on May 13,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+add wave sim:/rca_4bit_tb/*
+run -all
+quit -sim
+# End time: 22:41:12 on May 13,2025, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 1
+# Compile of RCA_TB.vhd was successful.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 22:42:40 on May 13,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+add wave -position end  sim:/rca_4bit_tb/A_TB
+add wave -position end  sim:/rca_4bit_tb/B_TB
+add wave -position end  sim:/rca_4bit_tb/Cin_TB
+add wave -position end  sim:/rca_4bit_tb/SUM_TB
+add wave -position end  sim:/rca_4bit_tb/Cout_TB
+run -all
+quit -sim
+# End time: 22:49:27 on May 13,2025, Elapsed time: 0:06:47
+# Errors: 0, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 22:56:21 on May 13,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+add wave -position end  sim:/rca_4bit_tb/A_TB
+add wave -position end  sim:/rca_4bit_tb/B_TB
+add wave -position end  sim:/rca_4bit_tb/Cin_TB
+add wave -position end  sim:/rca_4bit_tb/SUM_TB
+add wave -position end  sim:/rca_4bit_tb/Cout_TB
+run -all
+quit -sim
+# End time: 22:59:35 on May 13,2025, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 2
+# Compile of RCA_TB.vhd was successful.
+vsim -gui work.rca_4bit_tb(behavior)
+# vsim -gui work.rca_4bit_tb(behavior) 
+# Start time: 23:00:31 on May 13,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rca_4bit_tb(behavior)
+# Loading work.rca_4bit(structure)
+# Loading work.full_adder(behavioral)
+# Loading work.half_adder(behavioral)
+add wave -position end  sim:/rca_4bit_tb/A_TB
+add wave -position end  sim:/rca_4bit_tb/B_TB
+add wave -position end  sim:/rca_4bit_tb/Cin_TB
+add wave -position end  sim:/rca_4bit_tb/SUM_TB
+add wave -position end  sim:/rca_4bit_tb/Cout_TB
+run -all
+quit -sim
+# End time: 23:04:27 on May 13,2025, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 2
