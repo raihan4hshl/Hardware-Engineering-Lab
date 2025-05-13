@@ -1,0 +1,353 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab
+Efour_bit_subtractor
+Z0 w1746914466
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 29
+Z4 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor
+Z5 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd
+Z6 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd
+l0
+L5 1
+V2KnTkET4HjHhJAG>cO>=R0
+!s100 =<Fb1GQ1BVT<5P:V66ojK0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1746923242
+!i10b 1
+Z9 !s108 1746923242.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd|
+Z11 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+DEx4 work 19 four_bit_subtractor 0 22 2KnTkET4HjHhJAG>cO>=R0
+!i122 29
+l22
+L12 15
+VDVZ4][?5X[QhQEO;=_;3Q3
+!s100 dZN95YDGKP<;90SPBPDmo3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efour_bit_subtractor_tb
+Z14 w1746921504
+R1
+R2
+R3
+!i122 30
+R4
+Z15 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd
+Z16 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd
+l0
+L5 1
+VmnC9g?^di4ji^7f:Ug^TM3
+!s100 6h]Vih1Ca;Pl2O[kNLm]:3
+R7
+32
+Z17 !s110 1746923243
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd|
+Z19 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 22 four_bit_subtractor_tb 0 22 mnC9g?^di4ji^7f:Ug^TM3
+!i122 30
+l21
+L8 43
+VUm[Z`Bi`i21TJiW@;h@UO1
+!s100 `MORaNXEX]mfEH>d^ZJzP2
+R7
+32
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Efull_adder
+Z20 w1746139512
+R1
+R2
+R3
+!i122 32
+R4
+Z21 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+Z22 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd
+l0
+L6 1
+Vh4kHM4gUR7>`?d;2oX?>22
+!s100 JAfjjd<iPA?imF;_kAMEP2
+R7
+32
+R17
+!i10b 1
+Z23 !s108 1746923243.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd|
+Z25 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 full_adder 0 22 h4kHM4gUR7>`?d;2oX?>22
+!i122 32
+l20
+L11 27
+V5;ZLdEUSY3^k3=^d4l=o^0
+!s100 <PXi68:GINXV46b@X`o651
+R7
+32
+R17
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Efull_adder_tb
+Z26 w1746137668
+R1
+R2
+R3
+!i122 35
+R4
+Z27 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd
+Z28 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd
+l0
+L6 1
+Vha:Qec^afjR3<1ePcd]a03
+!s100 f[gTAdckk7@j7l>eg2TRQ3
+R7
+32
+Z29 !s110 1746923244
+!i10b 1
+Z30 !s108 1746923244.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd|
+Z32 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 full_adder_tb 0 22 ha:Qec^afjR3<1ePcd]a03
+!i122 35
+l19
+L9 22
+V_g33Mm1gWOgXISo_>fS1f1
+!s100 l]iQidH^lJfbg]RHL@a`C3
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Ehalfadder
+Z33 w1746137821
+R1
+R2
+R3
+!i122 31
+R4
+Z34 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+Z35 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd
+l0
+L6 1
+VW=X7[X2G;hb?z2O<?_78f3
+!s100 ?DEW0ZL>41_lUO4MoV?[P2
+R7
+32
+R17
+!i10b 1
+R23
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
+Z37 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd|
+!i113 1
+R12
+R13
+Adata
+R1
+R2
+R3
+DEx4 work 9 halfadder 0 22 W=X7[X2G;hb?z2O<?_78f3
+!i122 31
+l12
+L11 5
+V[<D_Z896PXA]oF3[2BGLI2
+!s100 L=z5X^P]32[UHJ3Q`0`543
+R7
+32
+R17
+!i10b 1
+R23
+R36
+R37
+!i113 1
+R12
+R13
+Ehalfadder_tb
+Z38 w1746137777
+R1
+R2
+R3
+!i122 34
+R4
+Z39 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+Z40 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd
+l0
+L6 1
+V<F@_`EdPOX_n9@TQ=dnWI2
+!s100 9S[d<4RB4OYZTCYR>ZcQ72
+R7
+32
+R29
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
+Z42 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder_TB.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 12 halfadder_tb 0 22 <F@_`EdPOX_n9@TQ=dnWI2
+!i122 34
+l18
+L9 20
+V1e9VeTD>Qz]YehoR[hnOo0
+!s100 fb?;`azRSGcY?KVO6m>I_2
+R7
+32
+R29
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R12
+R13
+Erca_4bit
+Z43 w1746140021
+R2
+R3
+!i122 33
+R4
+Z44 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+Z45 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+l0
+L4 1
+V3B0^54n^4USVKnnoN7>]z2
+!s100 :`h;5MKgW=UYkl9@:?5_02
+R7
+32
+R29
+!i10b 1
+R23
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+Z47 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+DEx4 work 8 rca_4bit 0 22 3B0^54n^4USVKnnoN7>]z2
+!i122 33
+l19
+L11 14
+VeLKKHE>oj4TnL;8^S4izh0
+!s100 ebMQ3WJH`Q5YY4W_@L8Ab0
+R7
+32
+R29
+!i10b 1
+R23
+R46
+R47
+!i113 1
+R12
+R13
+Erca_4bit_tb
+Z48 w1746923234
+R1
+R2
+R3
+!i122 36
+R4
+Z49 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd
+Z50 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd
+l0
+L6 1
+VQ9@cBDz]W048CcbSTIKAQ1
+!s100 FoEzX2Pj1`35IYG7O3W;<1
+R7
+32
+Z51 !s110 1746923245
+!i10b 1
+R30
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd|
+Z53 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RCA_TB.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+Z54 DEx4 work 11 rca_4bit_tb 0 22 Q9@cBDz]W048CcbSTIKAQ1
+!i122 36
+l22
+L9 38
+Vl@FRLPXmNgWn;A<@J=6]Y3
+!s100 E1GO@f_P]ZI0aeX>@=^Ni2
+R7
+32
+R51
+!i10b 1
+R30
+R52
+R53
+!i113 1
+R12
+R13

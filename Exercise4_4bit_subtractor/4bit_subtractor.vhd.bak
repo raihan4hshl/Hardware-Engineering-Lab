@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Four_bit_subtractor is
+	port(X,Y: in std_logic_vector(3 downto 0);
+		ADDnSUB: in std_logic;
+		Result: out std_logic_vector(3 downto 0);
+		FinalCarry: out std_logic);
+end entity;
+
+architecture Behavior of Four_bit_subtractor is
+	component rca_4bit
+		port (A, B: in STD_LOGIC_VECTOR(3 downto 0); 
+		Cin: in STD_LOGIC; 
+		SUM: out STD_LOGIC_VECTOR(3 downto 0); 
+		Cout: out STD_LOGIC);
+	end component;
+
+signal F: in std_logic_vector(3 downto 0);
+
+begin
+	F<=X xor Y;
+DUT1: rca_4bit
+	port map(A=>X, B=>F, Cin=>ADDnSUB, SUM=>Result, Cout=>FinalCarry);
+end Behavior;
