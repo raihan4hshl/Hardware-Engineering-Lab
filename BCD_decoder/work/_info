@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ebcd_decoder
+Z0 w1748209178
+!i122 2
+Z1 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder
+Z2 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder.vhd
+Z3 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder.vhd
+l0
+L1 1
+Vb6a9M;SE3^2=CIHMB;C_T1
+!s100 Vio^M5B^Fee4WNB5QeQ>E0
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1748209185
+!i10b 1
+Z6 !s108 1748209185.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder.vhd|
+Z8 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Alogicoperation
+DEx4 work 11 bcd_decoder 0 22 b6a9M;SE3^2=CIHMB;C_T1
+!i122 2
+l8
+Z11 L7 13
+Z12 V>HZ2VPBQBMJa=?;LA]U`Y1
+Z13 !s100 3WmzA@O:eZHU:ZVYGgkFE0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Ebcd_decoder_tb
+Z14 w1748209096
+!i122 1
+R1
+Z15 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder_TB.vhd
+Z16 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder_TB.vhd
+l0
+L1 1
+VCadcKAYL1;zVlTW>KMC;Q3
+!s100 fYKJn3PdCfH@?49kMFjR=1
+R4
+32
+!s110 1748209098
+!i10b 1
+Z17 !s108 1748209098.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder_TB.vhd|
+Z19 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder_TB.vhd|
+!i113 1
+R9
+R10
+Abehavior
+DEx4 work 14 bcd_decoder_tb 0 22 CadcKAYL1;zVlTW>KMC;Q3
+!i122 1
+l16
+L4 26
+V[<F@I`3za1A19AoJzBO`V2
+!s100 fVBdSog93D;43MiNi^6090
+R4
+32
+!s110 1748209099
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R9
+R10

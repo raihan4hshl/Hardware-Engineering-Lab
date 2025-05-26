@@ -1,0 +1,41 @@
+# Compile of BCD_decoder.vhd failed with 1 errors.
+# Compile of BCD_decoder.vhd failed with 1 errors.
+# Compile of BCD_decoder.vhd was successful.
+# Compile of BCD_decoder_TB.vhd was successful with warnings.
+vsim -gui work.bcd_decoder_tb(behavior)
+# vsim -gui work.bcd_decoder_tb(behavior) 
+# Start time: 23:38:44 on May 25,2025
+# Loading std.standard
+# Loading work.bcd_decoder_tb(behavior)
+# Loading work.bcd_decoder(logicoperation)
+# ** Fatal: (vsim-3817) Port "CS1" of entity "bcd_decoder" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /bcd_decoder_tb/DUT1 File: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_decoder/BCD_decoder.vhd Line: 3
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 23:38:46 on May 25,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 6
+# Compile of BCD_decoder.vhd was successful.
+vsim -gui work.bcd_decoder_tb
+# vsim -gui work.bcd_decoder_tb 
+# Start time: 23:39:57 on May 25,2025
+# Loading std.standard
+# Loading work.bcd_decoder_tb(behavior)
+# Loading work.bcd_decoder(logicoperation)
+add wave -position end  sim:/bcd_decoder_tb/A0_TB
+add wave -position end  sim:/bcd_decoder_tb/A1_TB
+add wave -position end  sim:/bcd_decoder_tb/A2_TB
+add wave -position end  sim:/bcd_decoder_tb/A3_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT0_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT1_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT2_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT3_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT4_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT5_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT6_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT7_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT8_TB
+add wave -position end  sim:/bcd_decoder_tb/OUT9_TB
+run -all
+quit -sim
+# End time: 23:43:41 on May 25,2025, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 2

@@ -1,25 +1,9 @@
+# Compile of halfAdder_TB.vhd failed with 1 errors.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# Compile of halfAdder_TB.vhd was successful with warnings.
+# Compile of halfAdder_TB.vhd was successful with warnings.
 # Compile of Full_adder.vhd was successful.
 # Compile of Full_adder_TB.vhd was successful with warnings.
 # Compile of halfAdder.vhd was successful.
 # Compile of halfAdder_TB.vhd was successful with warnings.
 # 4 compiles, 0 failed with no errors.
-vsim -gui work.full_adder_tb(behavioral)
-# vsim -gui work.full_adder_tb(behavioral) 
-# Start time: 23:52:10 on May 01,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.full_adder_tb(behavioral)
-# Loading work.full_adder(behavioral)
-# Loading work.half_adder(data)
-add wave -position end  sim:/full_adder_tb/A_TB
-add wave -position end  sim:/full_adder_tb/B_TB
-add wave -position end  sim:/full_adder_tb/Cin_TB
-add wave -position end  sim:/full_adder_tb/SUM_TB
-add wave -position end  sim:/full_adder_tb/Cout_TB
-run -all
-quit -sim
-# End time: 23:55:51 on May 01,2025, Elapsed time: 0:03:41
-# Errors: 0, Warnings: 3
-quit

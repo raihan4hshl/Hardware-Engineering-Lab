@@ -1,8 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
 entity HalfAdder_TB  is
 end HalfAdder_TB;
 
 architecture Behavioral of HalfAdder_TB  is
-	component HalfAdder
+	component Half_Adder
 		port(A,B: in STD_LOGIC;
 			SUM,Cout: out STD_LOGIC);
 	end component;
@@ -11,7 +16,7 @@ signal A_TB, B_TB: STD_LOGIC;
 signal S_TB, C_TB: STD_LOGIC;
 
 begin 
-DUT1: HalfAdder port map(
+DUT1: Half_Adder port map(
 			A=>A_TB, 
 			B=>B_TB,
 			SUM=>S_TB,

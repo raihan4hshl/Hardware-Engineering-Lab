@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 16 01:16:56 2025
+# Process ID         : 19140
+# Current directory  : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.runs/synth_1
+# Command line       : vivado.exe -log Full_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Full_Adder.tcl
+# Log file           : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.runs/synth_1/Full_Adder.vds
+# Journal file       : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-JG7TAHL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-1630 v4 @ 3.70GHz
+# CPU Frequency      : 3691 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17042 MB
+# Swap memory        : 10523 MB
+# Total Virtual      : 27565 MB
+# Available Virtual  : 3803 MB
+#-----------------------------------------------------------
+source Full_Adder.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 331.680 ; gain = 49.824
+Command: synth_design -top Full_Adder -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24608
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 1040.449 ; gain = 468.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Full_Adder' [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd:11]
+INFO: [Synth 8-3491] module 'Half_Adder' declared at 'C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd:6' bound to instance 'HA1' of component 'Half_Adder' [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'Half_Adder' [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Half_Adder' (0#1) [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd:11]
+INFO: [Synth 8-3491] module 'Half_Adder' declared at 'C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_1_Half_Adder/halfAdder.vhd:6' bound to instance 'HA2' of component 'Half_Adder' [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Full_Adder' (0#1) [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_2_Full_Adder/Full_adder.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 1144.328 ; gain = 572.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 1144.328 ; gain = 572.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:52 . Memory (MB): peak = 1144.328 ; gain = 572.703
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1144.328 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn3'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp3'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn10'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp10'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn2'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp2'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxn11'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vauxp11'. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1177.043 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1177.043 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:24 ; elapsed = 00:01:51 . Memory (MB): peak = 1177.043 ; gain = 605.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:24 ; elapsed = 00:01:51 . Memory (MB): peak = 1177.043 ; gain = 605.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:24 ; elapsed = 00:01:51 . Memory (MB): peak = 1177.043 ; gain = 605.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:25 ; elapsed = 00:01:52 . Memory (MB): peak = 1177.043 ; gain = 605.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:36 ; elapsed = 00:02:05 . Memory (MB): peak = 1177.043 ; gain = 605.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:09 ; elapsed = 00:02:46 . Memory (MB): peak = 1327.977 ; gain = 756.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:09 ; elapsed = 00:02:46 . Memory (MB): peak = 1328.105 ; gain = 756.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:09 ; elapsed = 00:02:46 . Memory (MB): peak = 1337.695 ; gain = 766.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     2|
+|2     |IBUF |     3|
+|3     |OBUF |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:33 ; elapsed = 00:03:16 . Memory (MB): peak = 1554.598 ; gain = 982.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:42 ; elapsed = 00:03:00 . Memory (MB): peak = 1554.598 ; gain = 950.258
+Synthesis Optimization Complete : Time (s): cpu = 00:02:34 ; elapsed = 00:03:17 . Memory (MB): peak = 1554.598 ; gain = 982.973
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1554.598 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1554.598 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 590f7526
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 45 Warnings, 44 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:58 ; elapsed = 00:04:39 . Memory (MB): peak = 1554.598 ; gain = 1222.918
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1554.598 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/project_1_Full_Adder/project_1_Full_Adder.runs/synth_1/Full_Adder.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Full_Adder_utilization_synth.rpt -pb Full_Adder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 16 01:22:01 2025...
