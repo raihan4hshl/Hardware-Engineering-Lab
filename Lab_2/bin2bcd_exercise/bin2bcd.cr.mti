@@ -1,0 +1,20 @@
+{C:/Users/ismai/Desktop/Hardware Eng/bin2bcd_exercise/bin2bcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/ismai/Desktop/Hardware Eng/bin2bcd_exercise/bin2bcd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity BinaryToBCD
+-- Compiling architecture Behavioral of BinaryToBCD
+
+} {} {}} {C:/Users/ismai/Desktop/Hardware Eng/bin2bcd_exercise/tb_bin2bcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/ismai/Desktop/Hardware Eng/bin2bcd_exercise/tb_bin2bcd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_Bin2BCD
+-- Compiling architecture Behavioral of TB_Bin2BCD
+-- Loading entity BinaryToBCD
+
+} {} {}}
