@@ -1,0 +1,19 @@
+entity BCD_TO_7_segment_Decoder is
+	port(
+		ABCD: in bit_vector(3 downto 0);
+		OUTPUT: out  bit_vector(6 downto 0)); 
+end entity BCD_TO_7_segment_Decoder;
+
+architecture LogicOperation of BCD_TO_7_segment_Decoder is
+	begin
+		OUTPUT<="1111110" when (ABCD= "0000") else
+			"0110000" when (ABCD= "0001") else
+			"1101101" when (ABCD= "0010") else
+			"1111001" when (ABCD= "0011") else
+			"0110011" when (ABCD= "0100") else
+			"1011011" when (ABCD= "0101") else
+			"1011111" when (ABCD= "0110") else
+			"1110101" when (ABCD= "0111") else
+			"1111111" when (ABCD= "1000") else
+			"1111011" when (ABCD= "1001") else
+end architecture LogicOperation; 

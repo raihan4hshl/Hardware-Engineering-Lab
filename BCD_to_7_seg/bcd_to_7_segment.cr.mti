@@ -1,0 +1,22 @@
+C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl {1 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity BCD_TO_7_segment_Decoder
+-- Compiling architecture LogicOperation of BCD_TO_7_segment_Decoder
+
+} {} {}} C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity BCD_TO_7_segment_Decoder_TB
+-- Compiling architecture Behavior of BCD_TO_7_segment_Decoder_TB
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}
