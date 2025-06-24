@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Jun 15 13:43:52 2025
+# Process ID         : 22100
+# Current directory  : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/test_calculator/test_calculator.runs/impl_1
+# Command line       : vivado.exe -log calculator.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source calculator.tcl -notrace
+# Log file           : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/test_calculator/test_calculator.runs/impl_1/calculator.vdi
+# Journal file       : C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Vivado projects/test_calculator/test_calculator.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-JG7TAHL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-1630 v4 @ 3.70GHz
+# CPU Frequency      : 3691 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17042 MB
+# Swap memory        : 9747 MB
+# Total Virtual      : 26789 MB
+# Available Virtual  : 8876 MB
+#-----------------------------------------------------------
+source calculator.tcl -notrace

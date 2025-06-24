@@ -15,5 +15,5 @@ architecture LogicOperation of BCD_TO_7_segment_Decoder is
 			"1011111" when (ABCD= "0110") else
 			"1110101" when (ABCD= "0111") else
 			"1111111" when (ABCD= "1000") else
-			"1111011" when (ABCD= "1001") else
+			"1111011" when (ABCD= "1001");
 end architecture LogicOperation; 

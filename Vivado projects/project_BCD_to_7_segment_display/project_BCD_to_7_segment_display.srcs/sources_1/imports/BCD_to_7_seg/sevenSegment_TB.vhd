@@ -1,0 +1,24 @@
+entity BCD_TO_7_segment_Decoder_TB is
+end entity BCD_TO_7_segment_Decoder_TB;
+
+
+architecture Behavior of BCD_TO_7_segment_Decoder_TB is 
+	component BCD_TO_7_segment_Decoder
+		port(
+		ABCD: in bit_vector(3 downto 0);
+		OUTPUT: out  bit_vector(6 downto 0)); 
+	end component;
+
+signal ABCD_TB: bit_vector(3 downto 0);
+signal OUTPUT_TB: bit_vector(6 downto 0);
+
+begin
+DUT1: BCD_TO_7_segment_Decoder port map(
+			ABCD=>ABCD_TB,
+			OUTPUT=>OUTPUT_TB);
+
+ABCD_TB<="0000", "0001" after 15sec, "0010" after 30sec, "0011" after 45sec, "0100" after 60sec,
+"0101" after 75sec, "0110" after 90sec,"0111" after 105sec, "1000" after 120sec, "1001" after 135sec;
+
+end architecture Behavior;
+

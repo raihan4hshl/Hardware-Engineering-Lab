@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Subtractor is
+	port (A, B: in STD_LOGIC_VECTOR(3 downto 0);
+		Cin  : in std_logic; 
+		Diff: out STD_LOGIC_VECTOR(3 downto 0); 
+		Cout: out STD_LOGIC);
+end rca_4bit;
+
+architecture Structure of Subtractor is
+	component Full_Adder
+			port(A, B, Cin: in STD_LOGIC;
+				SUM, Cout: out STD_LOGIC);
+	end component;
+
+signal C1, C2, C3: STD_LOGIC;
+signal B_inverted: STD_LOGIC_VECTOR(3 downto 0);
+
+begin
+	B_inverted <= B xor "1111";
+	FA0: Full_Adder port map (A(0), B_inverted(0), '1', Diff(0), C1);
+    	FA1: Full_Adder port map (A(1), B_inverted(1), C1, Diff(1), C2);
+    	FA2: Full_Adder port map (A(2), B_inverted(2), C2, Diff(2), C3);
+    	FA3: Full_Adder port map (A(3), B_inverted(3), C3, Diff(3), Cout);
+end Structure;

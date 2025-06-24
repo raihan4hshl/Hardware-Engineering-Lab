@@ -1,0 +1,329 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ebcd_to_7_segment_decoder
+Z0 w1749922536
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 25
+Z3 dC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator
+Z4 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl
+Z5 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl
+l0
+L4 1
+V=O_>_?<Kl4QidoXii4SOV2
+!s100 j_b_6EoU7h9CHYPllb7>G3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1749938053
+!i10b 1
+Z8 !s108 1749938053.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl|
+Z10 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/BCD_to_7_seg/sevenSegment.vhdl|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Alogicoperation
+R1
+R2
+DEx4 work 24 bcd_to_7_segment_decoder 0 22 =O_>_?<Kl4QidoXii4SOV2
+!i122 25
+l13
+L12 22
+VX2QO]GJR0YS1:gFeWTWP30
+!s100 Ok_C[bN[;o0N[l9CbBkoV1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecaculator
+w1749936608
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 24
+R3
+Z14 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/calculator.vhdl
+Z15 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/calculator.vhdl
+l0
+L6 1
+VS;k4IGJc3MPNdm^JVNNC=0
+!s100 WMTCN6mG1BjDKETQR?K:h2
+R6
+32
+!s110 1749937613
+!i10b 1
+!s108 1749937613.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/calculator.vhdl|
+Z17 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/calculator.vhdl|
+!i113 1
+R11
+R12
+Ecalculator
+Z18 w1749980878
+R13
+R1
+R2
+!i122 40
+R3
+R14
+R15
+l0
+L5 1
+V@LnX_BL>^?ZAOh331=`>f1
+!s100 `bYC<VhgVb6Zd`LdO1H[F3
+R6
+32
+Z19 !s110 1749980881
+!i10b 1
+Z20 !s108 1749980881.000000
+R16
+R17
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R1
+R2
+Z21 DEx4 work 10 calculator 0 22 @LnX_BL>^?ZAOh331=`>f1
+!i122 40
+l52
+L18 67
+VPLn_<dQ_U7G4L:kFY[nCj3
+!s100 Aa:XYoaVEnj4n`CO_n]<_3
+R6
+32
+R19
+!i10b 1
+R20
+R16
+R17
+!i113 1
+R11
+R12
+Efour_bit_adder_subtractor_tb
+Z22 w1749926804
+R13
+R1
+R2
+!i122 3
+R3
+Z23 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd
+Z24 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd
+l0
+L5 1
+Vj714L3m:=ToLK@iJDWWJn3
+!s100 GcAmiVAa?h6KiZS=KZ>:B2
+R6
+32
+Z25 !s110 1749926806
+!i10b 1
+Z26 !s108 1749926806.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd|
+Z28 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor_TB.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R13
+R1
+R2
+DEx4 work 28 four_bit_adder_subtractor_tb 0 22 j714L3m:=ToLK@iJDWWJn3
+!i122 3
+l21
+Z29 L8 43
+VT?eGJcK?Ga_@e1@[S]09d0
+!s100 5L7>k2mNERfm[Kz`S2J5;0
+R6
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Efour_bit_subtractor
+Z30 w1749928231
+R13
+R1
+R2
+!i122 5
+R3
+Z31 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd
+Z32 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd
+l0
+L5 1
+V2KnTkET4HjHhJAG>cO>=R0
+!s100 =<Fb1GQ1BVT<5P:V66ojK0
+R6
+32
+Z33 !s110 1749928233
+!i10b 1
+Z34 !s108 1749928233.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd|
+Z36 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise4_4bit_subtractor/4bit_subtractor.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R13
+R1
+R2
+DEx4 work 19 four_bit_subtractor 0 22 2KnTkET4HjHhJAG>cO>=R0
+!i122 5
+l22
+L12 15
+V@2V:2aLMmDQi`nVF?Dm<=1
+!s100 ;g?<zCmP]gl;bRPTY>Dnf2
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Efour_bit_subtractor_tb
+Z37 w1749927946
+R13
+R1
+R2
+!i122 4
+R3
+R23
+R24
+l0
+L5 1
+VmnC9g?^di4ji^7f:Ug^TM3
+!s100 6h]Vih1Ca;Pl2O[kNLm]:3
+R6
+32
+Z38 !s110 1749927950
+!i10b 1
+Z39 !s108 1749927949.000000
+R27
+R28
+!i113 1
+R11
+R12
+Abehavior
+R13
+R1
+R2
+DEx4 work 22 four_bit_subtractor_tb 0 22 mnC9g?^di4ji^7f:Ug^TM3
+!i122 4
+l21
+R29
+VUm[Z`Bi`i21TJiW@;h@UO1
+!s100 `MORaNXEX]mfEH>d^ZJzP2
+R6
+32
+R38
+!i10b 1
+R39
+R27
+R28
+!i113 1
+R11
+R12
+Erca_4bit
+Z40 w1749937050
+R1
+R2
+!i122 23
+R3
+Z41 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+Z42 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd
+l0
+L4 1
+VKc>]CaBeUIm1UbFRDT1ge2
+!s100 Ro_8`HJL6T3zX[N48O85l3
+R6
+32
+Z43 !s110 1749937605
+!i10b 1
+Z44 !s108 1749937605.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+Z46 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Exercise_3_RCA/RIPPLE_CARRY.vhd|
+!i113 1
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 8 rca_4bit 0 22 Kc>]CaBeUIm1UbFRDT1ge2
+!i122 23
+l19
+L11 14
+V]^SFZA6^4gSbR_^Mjk2Y10
+!s100 EbogFAi]PKiDY32zC`0_62
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Esubtractor
+Z47 w1749937596
+R1
+R2
+!i122 22
+R3
+Z48 8C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/Subtractor.vhdl
+Z49 FC:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/Subtractor.vhdl
+l0
+L4 1
+VjhE5RzP<mUkGL:j<Vz6:T3
+!s100 GGRFBQ5nn6SGz[`K]9_<g3
+R6
+32
+Z50 !s110 1749937598
+!i10b 1
+Z51 !s108 1749937598.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/Subtractor.vhdl|
+Z53 !s107 C:/Users/exone/Documents/GitHub/Hardware-Engineering-Lab/Calculator/Subtractor.vhdl|
+!i113 1
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 10 subtractor 0 22 jhE5RzP<mUkGL:j<Vz6:T3
+!i122 22
+l20
+L11 16
+V?e[m:[0PiT7k6RPF:kWSO3
+!s100 8A1ZeRdLOBkH94DQToVzG2
+R6
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R11
+R12

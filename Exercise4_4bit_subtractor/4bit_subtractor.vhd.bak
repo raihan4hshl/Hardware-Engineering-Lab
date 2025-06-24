@@ -17,10 +17,10 @@ architecture Behavior of Four_bit_subtractor is
 		Cout: out STD_LOGIC);
 	end component;
 
-signal F: in std_logic_vector(3 downto 0);
+signal F: std_logic_vector(3 downto 0);
 
 begin
-	F<=X xor Y;
+	F <= Y xor (ADDnSUB & ADDnSUB & ADDnSUB & ADDnSUB);
 DUT1: rca_4bit
-	port map(A=>X, B=>F, Cin=>ADDnSUB, SUM=>Result, Cout=>FinalCarry);
+	port map(A=>X, B=>F, Cin=>'1', SUM=>Result, Cout=>FinalCarry);
 end Behavior;

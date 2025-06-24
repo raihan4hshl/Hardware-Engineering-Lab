@@ -2,11 +2,11 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity Four_bit_subtractor_TB is 
+entity Four_bit_adder_subtractor_TB is 
 end entity;
 
-architecture behavior of Four_bit_subtractor_TB is 
-	component Four_bit_subtractor
+architecture behavior of Four_bit_adder_subtractor_TB is 
+	component Four_bit_adder_subtractor
 		port(X,Y: in std_logic_vector(3 downto 0);
 		ADDnSUB: in std_logic;
 		Result: out std_logic_vector(3 downto 0);
@@ -20,7 +20,7 @@ signal FinalCarry_TB: std_logic;
 
 begin
 
-DUT1: Four_bit_subtractor
+DUT1: Four_bit_adder_subtractor
 	port map(X=>X_TB, Y=>Y_TB, ADDnSUB=>ADDnSUB_TB, Result=>Result_TB, FinalCarry=>FinalCarry_TB);
 process
 begin

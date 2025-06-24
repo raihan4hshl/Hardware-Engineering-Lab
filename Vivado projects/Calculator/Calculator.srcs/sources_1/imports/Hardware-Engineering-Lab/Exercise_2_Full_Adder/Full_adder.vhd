@@ -1,0 +1,37 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity Full_Adder is
+	port(A, B, Cin: in STD_LOGIC;
+		SUM, Cout: out STD_LOGIC);
+end entity;
+
+architecture Behavioral of Full_Adder  is
+	component  Half_Adder 
+		port(A, B: in STD_LOGIC;
+			SUM, Cout: out STD_LOGIC);
+	end component;
+
+signal HA1_SUM, HA1_Cout: STD_LOGIC;
+signal HA2_SUM, HA2_Cout: STD_LOGIC;
+
+begin 
+	HA1: Half_Adder
+		port map(
+			A=>A, 
+			B=>B,
+			SUM=>HA1_SUM,
+			Cout=>HA1_Cout);
+	HA2: Half_Adder
+		port map(
+			A=>HA1_SUM, 
+			B=>Cin,
+			SUM=>SUM,
+			Cout=>HA2_Cout);
+
+
+Cout<=HA1_Cout OR HA2_Cout;
+
+end Behavioral;

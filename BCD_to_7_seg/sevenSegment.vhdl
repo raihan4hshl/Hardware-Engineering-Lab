@@ -1,19 +1,34 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
 entity BCD_TO_7_segment_Decoder is
-	port(
-		ABCD: in bit_vector(3 downto 0);
-		OUTPUT: out  bit_vector(6 downto 0)); 
+	port (
+        ABCD   : in  STD_LOGIC_VECTOR(3 downto 0);
+        OUTPUT : out STD_LOGIC_VECTOR(6 downto 0);
+        anode     : out STD_LOGIC_VECTOR(7 downto 0)
+    );
 end entity BCD_TO_7_segment_Decoder;
 
 architecture LogicOperation of BCD_TO_7_segment_Decoder is
 	begin
-		OUTPUT<="1111110" when (ABCD= "0000") else
-			"0110000" when (ABCD= "0001") else
-			"1101101" when (ABCD= "0010") else
-			"1111001" when (ABCD= "0011") else
-			"0110011" when (ABCD= "0100") else
-			"1011011" when (ABCD= "0101") else
-			"1011111" when (ABCD= "0110") else
-			"1110101" when (ABCD= "0111") else
-			"1111111" when (ABCD= "1000") else
-			"1111011" when (ABCD= "1001");
+	anode <= "11110111"; -- Enable only AN0
+ process(ABCD)
+    begin
+        case ABCD is
+            when "0000" => OUTPUT <= "0000001"; -- 0
+            when "0001" => OUTPUT <= "1001111"; -- 1
+            when "0010" => OUTPUT <= "0010010"; -- 2
+            when "0011" => OUTPUT <= "0000110"; -- 3
+            when "0100" => OUTPUT <= "1001100"; -- 4
+            when "0101" => OUTPUT <= "0100100"; -- 5
+            when "0110" => OUTPUT <= "0100000"; -- 6
+            when "0111" => OUTPUT <= "0001111"; -- 7
+            when "1000" => OUTPUT <= "0000000"; -- 8
+            when "1001" => OUTPUT <= "0000100"; -- 9
+            when others => OUTPUT <= "0000000"; -- blank display
+        end case;
+
+        
+    end process;
 end architecture LogicOperation; 
+
