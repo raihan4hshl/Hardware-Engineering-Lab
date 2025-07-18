@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cbc12c90-557b-4cec-a6f7-388f63ad9723")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 190.5 34.29)
+		(size 58.42 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27a5dc89-99e3-410a-8474-4418321f0896")
+		(property "Sheetname" "output and input devices"
+			(at 190.5 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 190.5 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final PCB Design"
+				(path "/cbc12c90-557b-4cec-a6f7-388f63ad9723"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 30.48)
+		(size 58.42 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bef6674-57ea-41a1-a82f-013ddfb8cb00")
+		(property "Sheetname" "power"
+			(at 29.21 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 29.21 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final PCB Design"
+				(path "/cbc12c90-557b-4cec-a6f7-388f63ad9723"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 31.75)
+		(size 57.15 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fe6da91-1c4b-4724-92e2-a1b70a4dc56e")
+		(property "Sheetname" "main"
+			(at 113.03 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Utilities.kicad_sch"
+			(at 113.03 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final PCB Design"
+				(path "/cbc12c90-557b-4cec-a6f7-388f63ad9723"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
